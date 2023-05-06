@@ -1,11 +1,11 @@
-    package org.example;
+    package org.example.Lecture15;
 
     import io.github.bonigarcia.wdm.WebDriverManager;
     import org.junit.Test;
     import org.openqa.selenium.WebDriver;
     import org.openqa.selenium.chrome.ChromeDriver;
 
-    public class OpenUrlWithJunit {// no main method required
+    public class OpenUrlWithJunit {// Junit beneft-no main method required. can run test case independently
         @Test
         public void openNopcommerce(){
             WebDriverManager.chromedriver().setup();

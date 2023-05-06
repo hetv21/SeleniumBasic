@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Lecture15;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

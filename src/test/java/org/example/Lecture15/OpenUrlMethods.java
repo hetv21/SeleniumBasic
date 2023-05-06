@@ -1,4 +1,4 @@
-    package org.example;
+    package org.example.Lecture15;
 
     import io.github.bonigarcia.wdm.WebDriverManager;
     import org.junit.After;
@@ -7,7 +7,7 @@
     import org.openqa.selenium.WebDriver;
     import org.openqa.selenium.chrome.ChromeDriver;
 
-    public class OpenUrlMethod { //for easy readability, to make test case independent and to avoid duplication
+    public class OpenUrlMethods { //for easy readability, to make test case independent and to avoid duplication
         //2 methods-set up method and tear down method (close)
         public WebDriver driver;
 
